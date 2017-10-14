@@ -1,4 +1,22 @@
+body {
+    align-content: center;
+    font-family: "Helvetica";
+}
+
 .block {
-    margin: 20px;
-    max-width: 300px;
+    text-align: center;
+    position: relative;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon-container {
+    width:100%;
+}
+
+.icon {
+    margin: 10px auto;
+    font-size: 32px;
 }
