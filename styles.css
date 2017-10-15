@@ -1,9 +1,25 @@
 body {
     align-content: center;
     font-family: "Helvetica";
+    background-color: dimgrey;
+}
+
+.block:not(.title)::before {
+    width: 0px;
+    height: 0px;
+    background: #fff;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 30px solid rgb(32, 115, 184);
+    border-right: 30px solid white;
+    border-left: 30px solid rgb(32, 115, 184);
+    border-bottom: 30px solid white;
 }
 
 .block {
+    background-color: white;
     font-size: 200%;
     text-align: center;
     position: relative;
@@ -21,4 +37,5 @@ body {
 .icon {
     margin: 10px auto;
     font-size: 300%;
+    color: rgb(32, 115, 184);
 }
