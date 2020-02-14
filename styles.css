@@ -4,42 +4,6 @@ body {
     background-color: dimgrey;
 }
 
-#content {
-    max-width: 1000px;
-    margin: auto;
-}
-
-#left {
-    float: left;
-    width: 20%;
-    background: rgb(32, 115, 184);
-    color: white;
-    height: 100%;
-    overflow: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-}
-
-#left::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-}
-
-#right {
-    float: left;
-    width: 80%;
-    background: dimgrey;
-    height: 100%;
-    overflow: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-}
-
-#right::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-}
-
 .menu-option {
     text-align: center;
     padding: 10px;
@@ -77,7 +41,7 @@ body {
 }
 
 .menu-block {
-    background-color:  rgb(32, 115, 184);
+    background-color: rgb(32, 115, 184);
     color: white;
     font-size: 200%;
     text-align: center;
@@ -86,7 +50,6 @@ body {
     padding: 20px;
     width: 90%;
     max-width: 1000px;
-    height: 100px;
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
