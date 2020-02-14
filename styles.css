@@ -4,6 +4,52 @@ body {
     background-color: dimgrey;
 }
 
+#content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#left {
+    float: left;
+    width: 20%;
+    background: rgb(32, 115, 184);
+    color: white;
+    height: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#left::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+#right {
+    float: left;
+    width: 80%;
+    background: dimgrey;
+    height: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#right::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.menu-option {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-option:hover {
+    opacity: 0.6;
+}
+
 .block::before {
     width: 0px;
     height: 0px;
@@ -27,7 +73,29 @@ body {
     padding: 20px;
     width: 90%;
     max-width: 1000px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu-block {
+    background-color:  rgb(32, 115, 184);
+    color: white;
+    font-size: 200%;
+    text-align: center;
+    position: relative;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 1000px;
+    height: 100px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu-block > div {
+    vertical-align: middle;
+    display: table-cell;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .icon-container {
