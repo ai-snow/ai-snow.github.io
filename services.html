@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+        <link rel="stylesheet" type="text/css" href="styles.css"></link>
+        <script>
+            function clickHead(id) {
+                var x = document.getElementById(id);
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="content">
+            <div class="menu-block" style="text-align: right; color: rgb(32, 115, 184); background: white;">
+                <b>Sam Wehner, ASA, MAAA</b>
+            </div>
+            <div class="menu-block">
+                <div class="menu-option" onclick="window.location = 'index.html';">Home</div>
+                <div class="menu-option" onclick="window.location = 'services.html';"><b>Services</b></div>
+                <div class="menu-option" onclick="window.location = 'about.html';">Contact</div>
+            </div>
+            <div style="text-align: center; color: white;">
+                Click banners to show/hide details.
+            </div>
+            <div class="block" onclick="clickHead('leadership');">
+                <div style="text-align: right;">
+                    <b style="color: rgb(32, 115, 184)">Leadership</b>
+                </div>
+            </div>
+            <div class="menu-block" id="leadership" style="display: none;">
+                Contract CTO
+                <br>
+                Technology Advisory Board Member
+                <br>
+                Technology Mentor
+            </div>
+            <div class="block" onclick="clickHead('consulting');">
+                <div style="text-align: right;">
+                    <b style="color: rgb(32, 115, 184)">Consulting</b>
+                </div>
+            </div>
+            <div class="menu-block" id="consulting" style="display: none;">
+                Idea Generation
+                <br>
+                Research & Prototyping
+                <br>
+                Data Science, Machine Learning, AI
+                <br>
+                Custom Software
+            </div>
+        </div>
+    </body>
+</html>
