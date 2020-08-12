@@ -2,6 +2,8 @@ body {
     align-content: center;
     font-family: "Helvetica";
     background-color: dimgrey;
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
 }
 
 .menu-option {
