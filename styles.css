@@ -1,7 +1,7 @@
 body {
     align-content: center;
     font-family: "Helvetica";
-    background-color: dimgrey;
+    background-color: #303030;
     background-image: url("img/background.jpg");
     background-repeat: no-repeat;
 }
@@ -27,6 +27,20 @@ body {
     border-top: 30px solid rgb(32, 115, 184);
     border-right: 30px solid white;
     border-left: 30px solid rgb(32, 115, 184);
+    border-bottom: 30px solid white;
+}
+
+.block::after {
+    width: 0px;
+    height: 0px;
+    background: #fff;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 30px solid rgb(32, 115, 184);
+    border-right: 30px solid rgb(32, 115, 184);
+    border-left: 30px solid white;
     border-bottom: 30px solid white;
 }
 
@@ -70,5 +84,5 @@ body {
 .icon {
     margin: 10px auto;
     font-size: 300%;
-    color: rgb(32, 115, 184);
+    color: #303030;
 }
