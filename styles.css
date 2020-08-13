@@ -26,9 +26,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    border-top: 30px solid #DD571C;
+    border-top: 30px solid #151E3D;
     border-right: 30px solid white;
-    border-left: 30px solid #DD571C;
+    border-left: 30px solid #151E3D;
     border-bottom: 30px solid white;
 }
 
@@ -40,8 +40,8 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    border-top: 30px solid #DD571C;
-    border-right: 30px solid #DD571C;
+    border-top: 30px solid #151E3D;
+    border-right: 30px solid #151E3D;
     border-left: 30px solid white;
     border-bottom: 30px solid white;
 }
