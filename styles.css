@@ -3,7 +3,8 @@ body {
     font-family: "Helvetica";
     background-color: #303030;
     background-image: url("img/background.jpg");
-    background-repeat: no-repeat;
+    background-repeat: y-axis;
+    background-attachment: fixed;
 }
 
 .menu-option {
@@ -24,9 +25,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    border-top: 30px solid rgb(32, 115, 184);
+    border-top: 30px solid #DD571C;
     border-right: 30px solid white;
-    border-left: 30px solid rgb(32, 115, 184);
+    border-left: 30px solid #DD571C;
     border-bottom: 30px solid white;
 }
 
@@ -38,8 +39,8 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    border-top: 30px solid rgb(32, 115, 184);
-    border-right: 30px solid rgb(32, 115, 184);
+    border-top: 30px solid #DD571C;
+    border-right: 30px solid #DD571C;
     border-left: 30px solid white;
     border-bottom: 30px solid white;
 }
@@ -57,7 +58,7 @@ body {
 }
 
 .menu-block {
-    background-color: rgb(32, 115, 184);
+    background-color: #151E3D;
     color: white;
     font-size: 200%;
     text-align: center;
