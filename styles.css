@@ -1,116 +1,19 @@
 body {
-    align-content: center;
-    font-family: "Helvetica";
-    background-color: #303030;
-    background-image: url("img/background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100vh;
-}
-
-.menu-option {
     text-align: center;
-    padding: 10px;
-    cursor: pointer;
 }
 
-.menu-option:hover {
-    opacity: 0.6;
+h1 {
+    font-size: 9vw;
 }
 
-.block::before {
-    width: 0px;
-    height: 0px;
-    background: #fff;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-top: 30px solid #151E3D;
-    border-right: 30px solid white;
-    border-left: 30px solid #151E3D;
-    border-bottom: 30px solid white;
+h2 {
+    font-size: 7vw;
 }
 
-.block::after {
-    width: 0px;
-    height: 0px;
-    background: #fff;
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-top: 30px solid #151E3D;
-    border-right: 30px solid #151E3D;
-    border-left: 30px solid white;
-    border-bottom: 30px solid white;
+h3 {
+    font-size: 6vw;
 }
 
-.block {
-    background-color: white;
-    font-size: 100%;
-    text-align: center;
-    position: relative;
-    margin: 20px auto;
-    padding: 20px;
-    width: 90%;
-    max-width: 600px;
-    min-width: 300px;
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.block-simple {
-    background-color: white;
-    font-size: 100%;
-    text-align: center;
-    position: relative;
-    margin: 20px auto;
-    padding: 20px;
-    width: 90%;
-    max-width: 600px;
-    min-width: 300px
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.menu-block {
-    background-color: #151E3D;
-    color: white;
-    font-size: 200%;
-    text-align: center;
-    position: relative;
-    margin: 20px auto;
-    padding: 20px;
-    width: 90%;
-    max-width: 600px;
-    min-width: 100px;
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.menu-block > div {
-    vertical-align: middle;
-    display: table-cell;
-    height: 100%;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.icon-container {
-    width:100%;
-}
-
-.icon {
-    margin: 10px auto;
-    font-size: 300%;
-    color: #303030;
-}
-
-.column {
-  float: left;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+p {
+    font-size: 4vw;
 }
