@@ -176,3 +176,7 @@ p.hourly {
     font-size: 3vw;
     color: blue;
 }
+
+p.copyright {
+    font-size: 1vw;
+}
