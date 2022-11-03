@@ -142,12 +142,16 @@ body {
 h1 {
     padding-top: 20;
     font-size: 9vw;
-    color: rgb(12, 42, 107);
+    background: linear-gradient(to left, rgb(50, 100, 107), rgb(30,30,30), rgb(50, 100, 107)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h2 {
     font-size: 7vw;
-    color: white;
+    background: linear-gradient(to left, dimgrey, black, dimgrey); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h3 {
@@ -164,7 +168,7 @@ p {
 
 .MathJax {
     font-size: 1.6em !important;
-    color: rgb(12, 42, 107);
+    color: rgb(30, 75, 80);
 }
 
 p .MathJax {
