@@ -1,9 +1,9 @@
 body {
     width: 100%;
     text-align: center;
-    font-size: 15pt;
-    color: green;
+    color: navy;
     font-weight: bold;
+    background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
 }
 
 #main {
@@ -19,15 +19,30 @@ h1 {
 
 h2 {
     font-size: 7vw;
-    color: orange;
+    color: white;
 }
 
 h3 {
-    font-size: 6vw;
+    font-size: 4vw;
 }
 
 p {
     font-size: 4vw;
     color: black;
     font-weight: 100;
+}
+
+.MathJax {
+    font-size: 1.6em !important;
+    color: white;
+}
+
+p .MathJax {
+    font-size: 1em !important;
+    color: black;
+}
+
+p.hourly {
+    font-size: 3vw;
+    color: white;
 }
