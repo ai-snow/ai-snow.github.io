@@ -18,7 +18,7 @@
     height: 20px;
     /*background: rgba(10, 125, 100, 0.2);*/
     animation: animate 25s linear infinite;
-    top: 0px;
+    top: -13vw;
 }
 
 .circles li:nth-child(1){
@@ -112,7 +112,7 @@
 @keyframes animate {
 
     0%{
-        transform: translateY(0px) rotate(0deg);
+        transform: translateY(0px) rotate(-45deg);
         opacity: 1;
         border-radius: 0;
     }
