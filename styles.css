@@ -191,3 +191,12 @@ p.hourly {
 p.copyright {
     font-size: 1vw;
 }
+
+.testimonial {
+    margin: auto;
+    padding: 5%;
+    width: 80%;
+    background-color: rgb(30, 75, 80);
+    color: white;
+    font-size: 2em;
+}
