@@ -1,3 +1,8 @@
+html {
+    padding: 7%;
+    background-color: black;
+}
+
 .area{
     width: 100%;
     background: #8e9eab;  /* fallback for old browsers */
